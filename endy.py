@@ -13,6 +13,6 @@ with open(FILE_NAME) as data_file:
     	ind = int( random.random()*count )
     	word = data["words"][ind]
     	Notifier.notify(word["ua"].encode('utf-8'), title=word["en"])
-    	time.sleep(25)
+    	time.sleep(45)
 
 
